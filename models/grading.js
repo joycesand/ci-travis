@@ -5,9 +5,9 @@ class Marks {
       this.marks = marks;
     }
     computeScore() {
-      if (this.marks > 80) {
+      if (this.marks > 85) {
         console.log("You have an A");
-      } else if (this.marks > 70 && this.marks < 80) {
+      } else if (this.marks > 70 && this.marks < 85) {
         console.log("You have a B");
       } else if (this.marks > 60 && this.marks < 70) {
         console.log("You have a C");
